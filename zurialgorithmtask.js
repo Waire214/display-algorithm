@@ -19,8 +19,8 @@ function convertFahrToCelsius(fah) {
         }
     }else(!Number.isNaN(fah) && !Number.isNaN(Number(fah)));{
         celsius = (fah - 32) * 5/9;
+        return celsius.toFixed(4)
      }
-    return celsius;
 }
 console.log(convertFahrToCelsius());
 console.log(convertFahrToCelsius(""));
@@ -65,7 +65,6 @@ function checkYuGiOh(n){
         str = JSON.stringify(n);
         return `invalid parameter: ${n}`
     }
-    return arr;
 }
 console.log(checkYuGiOh(''));
 console.log(checkYuGiOh(10));

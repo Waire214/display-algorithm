@@ -98,7 +98,7 @@ body {
     margin-bottom: 40px;
     justify-self: flex-start;
   }
-  #celsius-input {
+  #celsius-input, #celsius-input2 {
     padding: 0.5rem 0.5rem;
     @include borderTopProp($borderWidth, $borderStyle, $borderColor);
     @include borderRightProp($borderWidth, $borderStyle, $borderColor);
@@ -106,7 +106,7 @@ body {
     @include borderLeftProp($borderWidth, $borderStyle, $borderColor);
     border-radius: 4px;
   }
-  #sub {
+  #sub, #sub2 {
     padding: 0.5rem 1.2rem;
     border-radius: 25px;
     background-color: #84a59d;

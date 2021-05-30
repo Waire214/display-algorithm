@@ -107,7 +107,7 @@ body {
   justify-self: flex-start;
 }
 
-.container #celsius-input {
+.container #celsius-input, .container #celsius-input2 {
   padding: 0.5rem 0.5rem;
   border-top: 1px solid #495057;
   border-right: 1px solid #495057;
@@ -116,7 +116,7 @@ body {
   border-radius: 4px;
 }
 
-.container #sub {
+.container #sub, .container #sub2 {
   padding: 0.5rem 1.2rem;
   border-radius: 25px;
   background-color: #84a59d;
